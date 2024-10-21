@@ -114,23 +114,6 @@ figure.wrapped figcaption{
     font-size: .75rem;
     color:#376259
 }
-figure.gallery{
-    width: 100%;
-    height: auto;
-    display: flex;
-}
-figure.gallery{
-    margin: .5rem 2% 0 0;
-}
-figure.gallery figcaption{
-    text-align: center;
-    font-size: .75rem;
-    color: #b64e11;
-}
-div.gallery{
-    display: flex;
-    flex-wrap: wrap;
-}
 
 
 
