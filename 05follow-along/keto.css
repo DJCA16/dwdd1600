@@ -112,7 +112,20 @@ figure.wrapped img{
 figure.wrapped figcaption{
     text-align: center;
     font-size: .75rem;
-    color:#376259
+    color:#376259;
+}
+figure.gallery {
+    margin: .5rem 2% 0 0;
+}
+    
+figure.gallery figcaption {
+    text-align: center;
+    font-size: .75rem;
+    color:#b64e11;
+}
+div.gallery {
+    display:flex;
+    flex-wrap:wrap;
 }
 
 
