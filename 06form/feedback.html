@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>World Wide Sports</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Deep dive into the world of sports!">
+<meta name="author" content="Dominic Christensen-Abeyta">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="sports.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<!-- This is the start of the header section-->
+<header>
+    <h1 id="top">World Wide Sports</h1>
+    <p>Deep dive into the world of sports.</p>
+</header>
+<!-- This is the start of the navigation section-->
+<nav>
+    <ul>
+        <li><a href="index.html">History of Notable Sports</a></li>
+        <li><a href="rules.html">Basic Rules</a></li>
+        <li><a href="equipment.html">Equipment Needed</a></li>
+        <li class="active"><a href="feedback.html">Help Us</a></li>
+    </ul>
+</nav>
+<!-- This is the start of the main section-->
+<main>
+    <h1>Help Us</h1>
+    <form method="get" class="myform" action="thanks.html">
+    <fieldset>
+        <legend>User Info</legend>
+        <label>First Name*:<input type="text" name="first_name" required></label>
+        <label>Last Name*:<input type="text" name="last_name" required></label>
+        <label>Email*:<input type="email" name="user_email" required></label>
+        <label>Cell Number:<input type="tel" name="phone" placeholder="801-123-4567"></label>
+    </fieldset>
+
+    <fieldset>
+        <legend>What rating would you give this website on a scale from 1 to 5? (1 being lowest, 5 being highest)</legend>
+        <label><input type="radio" name="method" value="one">1</label>
+        <label><input type="radio" name="method" value="two">2</label>
+        <label><input type="radio" name="method" value="three">3</label>
+        <label><input type="radio" name="method" value="four">4</label>
+        <label><input type="radio" name="method" value="five">5</label>
+    </fieldset>
+
+    <fieldset>
+        <legend>How did you find us?</legend>
+        <label><input type="checkbox" name="friend" value="friend">Friend</label>
+        <label><input type="checkbox" name="advertisement" value="advertisement">Advertisement</label>
+        <label><input type="checkbox" name="google" value="google">Google Search</label>
+        <label><input type="checkbox" name="other" value="other">Other</label>
+        <br><br>
+        <label>How likely are you to recommend us to a friend?</label>
+        <select name="recommend">
+            <option value="none">Please Select</option>
+            <option value="very">Very Likely</option>
+            <option value="likely">Likely</option>
+            <option value="unlikely">Unlikely</option>
+            <option value="veryun">Very Unlikely</option>
+        </select>
+    </fieldset>
+    <label>Let us know if you have any recommendations on how to improve out website!
+        <textarea name="improvements"></textarea>
+    </label>
+    <input type="submit" value="Submit">
+    </form>
+</main>
+<!-- This is the start of the footer section-->
+<footer>
+    <p>&copy; 2024  |   Dominic Christensen-Abeyta  &bull; <a href="mailto:email@gmail.com">Email Us</a> &bull; <a href="tel:123456789">Call Us</a> &bull; <a href="index.html#top">Back to top</a></p>
+</footer>
